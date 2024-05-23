@@ -17,7 +17,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#define EE_HANDS
-
 // USB is always plugged into left half
 #define MASTER_LEFT
