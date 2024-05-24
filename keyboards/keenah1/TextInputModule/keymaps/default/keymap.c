@@ -25,6 +25,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VSC_CMNT_LINE       (C(KC_SLSH))
 #define VSC_CMNT_BLK        (S(A(KC_A)))
 
+const key_override_t vsc_cmnt_override =
+  ko_make_basic(MOD_MASK_SHIFT, VSC_CMNT_LINE, VSC_CMNT_BLK);
+
+const key_override_t **key_overrides = (const key_override_t *[]){
+  &vsc_cmnt_override,
+  NULL
+};
+
 enum layouts {
   LAYER_0,
   LAYER_1,
