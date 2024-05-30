@@ -19,3 +19,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // USB is always plugged into left half
 #define MASTER_LEFT
+
+#define TAPPING_TERM 90
